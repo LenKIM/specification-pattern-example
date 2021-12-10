@@ -1,4 +1,4 @@
-package org.example.domain;
+package org.example.domain.entity;
 
 public class ToyType {
     private final String name;

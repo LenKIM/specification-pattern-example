@@ -1,4 +1,4 @@
-package org.example.domain;
+package org.example.domain.entity;
 
 import java.util.HashSet;
 import java.util.Set;
