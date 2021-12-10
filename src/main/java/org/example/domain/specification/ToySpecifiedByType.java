@@ -2,8 +2,8 @@ package org.example.domain.specification;
 
 import org.example.abstracts.specification.AbstractSpecification;
 import org.example.abstracts.specification.Specification;
-import org.example.domain.Toy;
-import org.example.domain.ToyType;
+import org.example.domain.entity.Toy;
+import org.example.domain.entity.ToyType;
 
 public class ToySpecifiedByType extends AbstractSpecification<Toy> {
 

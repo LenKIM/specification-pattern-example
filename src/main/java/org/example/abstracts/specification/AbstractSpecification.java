@@ -15,4 +15,19 @@ public abstract class AbstractSpecification<T> implements Specification<T> {
     public AbstractSpecification<T> not(){
         return new NotSpecification<>(this);
     }
+
+    public AbstractSpecification<T> alwaysTrue(){
+        return new AlwaysTrueSpecification<>(this);
+    }
+
+    private static class AlwaysTrueSpecification<T> extends AbstractSpecification<T> {
+        public AlwaysTrueSpecification(AbstractSpecification<T> abstractSpecification) {
+            super();
+        }
+
+        @Override
+        public boolean isSatisfiedBy(T t) {
+            return true;
+        }
+    }
 }

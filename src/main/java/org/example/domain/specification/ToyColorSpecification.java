@@ -1,7 +1,7 @@
 package org.example.domain.specification;
 
 import org.example.abstracts.specification.AbstractSpecification;
-import org.example.domain.Toy;
+import org.example.domain.entity.Toy;
 
 public class ToyColorSpecification extends AbstractSpecification<Toy> {
 

@@ -2,19 +2,17 @@ package org.example;
 
 import org.example.abstracts.specification.AbstractSpecification;
 import org.example.abstracts.specification.Specification;
-import org.example.domain.Child;
-import org.example.domain.Toy;
-import org.example.domain.ToyType;
+import org.example.domain.entity.Child;
+import org.example.domain.entity.Toy;
+import org.example.domain.entity.ToyType;
 import org.example.domain.specification.ChildLikesSpecifiedToySpecification;
 import org.example.domain.specification.ChildNameSpecification;
 import org.example.domain.specification.SchoolChildrenSpecification;
 import org.example.domain.specification.ToyColorSpecification;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 

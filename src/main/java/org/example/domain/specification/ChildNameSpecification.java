@@ -1,7 +1,7 @@
 package org.example.domain.specification;
 
 import org.example.abstracts.specification.AbstractSpecification;
-import org.example.domain.Child;
+import org.example.domain.entity.Child;
 
 public class ChildNameSpecification extends AbstractSpecification<Child> {
 

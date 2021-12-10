@@ -1,7 +1,7 @@
 package org.example.domain.specification;
 
 import org.example.abstracts.specification.AbstractSpecification;
-import org.example.domain.ToyType;
+import org.example.domain.entity.ToyType;
 
 public class ToyTypeNameSpecification extends AbstractSpecification<ToyType> {
 
